@@ -18,7 +18,7 @@ public class SO implements Runnable {
 
 	}
 
-	public static void inicializa() {
+	public static void iniciaSO() {
 
 		try {
 			Thread.sleep(100);
@@ -64,7 +64,7 @@ public class SO implements Runnable {
 			e.printStackTrace();
 		}
 		while (true) {
-			inicializa();
+			iniciaSO();
 		}
 	}
 

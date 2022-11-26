@@ -47,7 +47,7 @@ public class MMU {
 		}
 	}
 
-	public static boolean mapeamento(int posicao) {
+	public static boolean mapearMemoria(int posicao) {
 		boolean mapear;
 		posicaoSolicitada = posicao;
 		
